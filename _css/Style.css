@@ -297,7 +297,7 @@ mix-blend-mode: difference;
 }
 
 .image-hover-text-container{
-    opacity: 0.4;
+    opacity: 1;
     filter: alpha(opacity=50); /* For IE8 and earlier */
   transition: opacity 0.5s linear; 
     
@@ -305,7 +305,7 @@ mix-blend-mode: difference;
 }
 
 .image-hover-text-container:hover{
-  opacity: 1.0;
+  opacity: 0.40;
   filter: alpha(opacity=100); /* For IE8 and earlier */
 
     
