@@ -1,5 +1,5 @@
 function linkhome(){
-            window.location="index.html";
+            window.location="/";
 }
 
 
