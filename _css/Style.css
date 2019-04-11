@@ -29,11 +29,8 @@ h1 {
 
 .descricao{
     position: fixed;
-   
-    z-index: 600;
     bottom:25px;
     right:40px;
-    mix-blend-mode: ;
     color:black;
     font-weight: 100;
     font-size: 0.8em;
