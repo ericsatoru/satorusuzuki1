@@ -4,7 +4,7 @@ function linkhome(){
 
 
 function linklavita(){
-            window.location="projeto-lavita.html";
+            window.location="lavitavital.html";
 }
 
 function linkhenry(){
