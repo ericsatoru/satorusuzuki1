@@ -29,28 +29,25 @@ h1 {
 
 .descricao{
     position: fixed;
-    padding: 25px;
-   
-    padding-top: 25px;
+    padding-left: 125px;    
+    bottom:25px;
     z-index: 300;
-    mix-blend-mode: ;
-      max-width: 40%;
-      max-height: 40%;
+    max-width: 40%;
+    max-height: 40%;
+    font-size: 0.7em;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
 .contact{
     position: fixed;
-    max-width: 40%;
-    max-height: 40%;
     z-index: 600;
     bottom:25px;
-
     mix-blend-mode: ;
     color:black;
-    font-weight: bold;
-  font-size: 1em;
-  font-family: 'Trade Gothic LT Std', Cn, bold;
+    font-weight: ;
+  font-size: 0.9em;
+  font-family: 'Open Sans Condensed', sans-serif;
      transform: rotate(-90deg);
  transform-origin: left top;
 
@@ -83,7 +80,7 @@ h1 {
     color:black;
     font-weight: bold;
     font-size: 3em;
-    font-family: 'Trade Gothic LT Std', Cn, bold;
+    font-family: 'Open Sans Condensed', sans-serif;
 
 
 }
@@ -283,10 +280,10 @@ video{
     z-index: 460;
     color:black;
     mix-blend-mode: difference;
-    font-weight: bold;
-    font-size: 3em;
-    font-family: 'Trade Gothic LT Std', Cn, bold;
-    
+    font-weight: light;
+    top:90%;
+    font-size: 2em;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .image-hover-text .image-hover-text-title{
