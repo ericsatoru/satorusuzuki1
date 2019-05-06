@@ -33,7 +33,7 @@ body{
 .header-univirtus{
     height: 77px;
     width:100vw;
-    background-color:#0E2A55;
+
     
 }
 
@@ -303,7 +303,7 @@ box-sizing: border-box;
 
     overflow: auto;
     margin-bottom: 10px;
-    width:100%;
+width: calc(100vw - 270px);
 }
 
 .col-video{
@@ -344,8 +344,8 @@ box-shadow: 2px 2px 7px -1px rgba(0,0,0,0.55);
 .col-content{    
  
     overflow-y: scroll; 
-    max-height: calc(100vh - 165px);
     
+    max-height: calc(100vh - 170px);
     float: left;
     text-align: center;
     width:calc(50% - 20px);
@@ -372,6 +372,7 @@ box-shadow: 2px 2px 7px -1px rgba(0,0,0,0.55);
 
 .col-content{
     text-align: left;
+
 }
 
 .imagem-col{
@@ -404,10 +405,9 @@ box-shadow: 2px 2px 7px -1px rgba(0,0,0,0.55);
     display: block;
     float:left;
     margin-left:10px; 
-    
+       
     margin-top:10px;
 
-    width:calc(100vw - 270px);
 
     font-family: 'Roboto Condensed', sans-serif;
     color: #7A7A91;
@@ -423,13 +423,13 @@ box-sizing: border-box;
 }
 
 .tabs h4{
-    
+    color:gray;
     float: left;
     text-align: center;
-    width:25%;
+    width:calc( 33% - 5px);
     padding: 10px;
     text-decoration: none;
-    border-radius: 10px;
+
         background-color: 
         rgba(255, 255, 255 );
 
@@ -443,8 +443,17 @@ box-shadow: 2px 2px 7px -1px rgba(0,0,0,0.55);
     
     margin-block-start: .2em;
     margin-block-end: .2em;
-    margin-right:20px;
-    
+        
+}
+
+.selected{
+    background-color: #fdb414 !important;
+    color: white !important;
+}
+.space{
+    float: left;
+    width:10px;
+    height:1px;
 }
 .link{
     text-decoration: none;   
@@ -526,6 +535,7 @@ h6 { font-size: 22px; }
 
 .banner {
 
+    width:calc(100vw - 270px);
     background-position: 50% 50%;
   color: white;
     margin-bottom: 10px;
@@ -630,6 +640,7 @@ body {
     .col-curso{
         width:95vw;
         max-height: calc=40vh;
+     
     }
     
     .col-video{
@@ -649,6 +660,7 @@ box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.55);
     .col-video video{
         width: auto;
         height: 40vh;
+        max-width: 95vw;
     }
 
     .col-content{
