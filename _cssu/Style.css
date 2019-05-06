@@ -589,4 +589,24 @@ body {
   
 }
 
+.saiba{
+  font-size: 12px;
+    color:#0E2A55;
 
+    text-align: left;
+
+    vertical-align: middle;
+}
+
+.saiba img{
+    width: 40px;
+    float: left;
+    margin-right:10px;
+}
+
+.saiba p{
+
+    margin-left: 10px;
+    text-align: left;
+
+}
