@@ -1,0 +1,6 @@
+{
+    "title" : "disney",
+    "description" : "aqui vai o texto da descrição",
+    "thumbnail" : "disney.png",
+    "images" : ["disney1.jpg", "disney2.png"]
+}
