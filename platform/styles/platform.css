@@ -28,14 +28,11 @@ body .portfolio-ui h1 {
 
 body .portfolio-ui header {
   width: 100vw;
-  background-color: black;
   text-align: center;
 }
 
 body .portfolio-ui header #logo {
   width: 3em;
-  -webkit-filter: invert(1);
-          filter: invert(1);
   cursor: pointer;
 }
 
@@ -43,16 +40,17 @@ body .portfolio-ui nav {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: black;
-  color: white;
 }
 
 body .portfolio-ui nav ul {
   list-style: none;
   padding: 0;
-  margin: 1em;
-  display: block;
   text-align: center;
+  font-weight: 500;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: auto;
   margin-left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -63,6 +61,16 @@ body .portfolio-ui nav ul li {
   display: inline;
   margin: 0 5em;
   cursor: pointer;
+  position: relative;
+  display: block;
+}
+
+body .portfolio-ui nav ul li.active::before {
+  content: "";
+  display: block;
+  height: 0.1em;
+  width: 5em;
+  background-color: #000;
 }
 
 body .portfolio-ui nav ul li:hover {
@@ -129,6 +137,12 @@ body .portfolio-modal.display {
 
 body .portfolio-modal .modal-content {
   text-align: center;
+}
+
+body .portfolio-modal .modal-content h3 {
+  max-width: 1000px;
+  text-align: center;
+  margin: auto;
 }
 
 body .portfolio-modal .modal-content p {
